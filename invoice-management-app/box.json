@@ -1,0 +1,22 @@
+{
+    "dependencies":{
+        "cborm":"^4.5.0+2",
+        "cbvalidation":"^4.4.0+26",
+        "CFEngine":"^1.0",
+        "coldbox":"^7.3.0+16",
+        "logbox":"^7.3.0+16",
+        "wirebox":"^7.3.0+16"
+    },
+    "installPaths":{
+        "cborm":"modules/cborm/",
+        "cbvalidation":"modules/cbvalidation/",
+        "CFEngine":"adode@2023/CFEngine/",
+        "coldbox":"coldbox/",
+        "logbox":"logbox/",
+        "wirebox":"wirebox/"
+    },
+    "location":"forgeboxStorage",
+    "name":"Invoice Management System",
+    "slug":"invoice-management-system",
+    "version":"1.0.0"
+}

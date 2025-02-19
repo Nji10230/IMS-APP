@@ -1,0 +1,15 @@
+{
+    "app":{
+        "cfengine":"adobe"
+    },
+    "name":"Invoice Management System",
+    "to":"invoice-management-app",
+    "web":{
+        "http":{
+            "port":"8080"
+        },
+        "rewrites":{
+            "enable":"true"
+        }
+    }
+}
