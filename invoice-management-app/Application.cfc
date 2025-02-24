@@ -85,8 +85,30 @@ this.mappings["/"] = getDirectoryFromPath(getCurrentTemplatePath());
 		class     = "com.mysql.cj.jdbc.Driver"
 	};
 
+
+	this.datasource = "coldbox";
+
+
+
+	// this.datasources["coldbox"] = {
+	// 	class: "com.mysql.cj.jdbc.Driver", 
+	// 	bundleName: "com.mysql.cj", 
+	// 	bundleVersion: "9.1.0",
+	// 	connectionString: "jdbc:mysql://127.0.0.1:3306/imsdb_lucee?useUnicode=true&characterEncoding=UTF8&serverTimezone=Asia/Calcutta&autoReconnect=true&useSSL=true&maxReconnects=3&useLegacyDatetimeCode=true",
+	// 	username: "root",
+	// 	password: "0000",
+		
+	// 	// optional settings
+	// 	blob:true, // default: false
+	// 	clob:true, // default: false
+	// 	connectionLimit:100, // default:-1
+	// 	liveTimeout:5, // default: -1; unit: minutes
+	// 	alwaysSetTimeout:true, // default: false
+	// 	validate:false // default: false
+	// };
+
 	// ORM Configuration
-	this.ormEnabled        = true;
+	this.ormEnabled  = true;
 	this.ormSettings = {
 		cfclocation = [ "models" ], // Where our entities exist
 		logSQL = true, // Remove after development to false.

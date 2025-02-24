@@ -34,6 +34,8 @@ component {
 
 
 		route("/user/new").to("UserController.new");
+		route("/invoice/new").to("InvoiceController.new");
+		route("/invoice/generating").to("InvoicePdfController.generated");
 
 		route("/user/create")
         .withAction({POST: "create"})

@@ -1,0 +1,11 @@
+{
+    "name":"ims-app",
+    "web":{
+        "http":{
+            "port":"8080"
+        },
+        "rewrites":{
+            "enable":"true"
+        }
+    }
+}

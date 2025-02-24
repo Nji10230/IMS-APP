@@ -94,7 +94,6 @@ component  extends="coldbox.system.EventHandler" {
 
     // create the form for creating a new user
     function new(event, rc, prc) {
-
         event.setView("user/create");
 
     }

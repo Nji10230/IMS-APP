@@ -66,6 +66,12 @@ component {
 
 			pdfSettings = {
 				storagePath = "./pdfs/invoices"  // Adjust this path as needed
+			},
+			env={
+				SMTP_SERVER  = getSystemSetting("SMTP_SERVER", "smtp.gmail.com"),
+                SMTP_PORT    = getSystemSetting("SMTP_PORT", "587"),
+                SMTP_USERNAME = getSystemSetting("SMTP_USERNAME", ""),
+                SMTP_PASSWORD = getSystemSetting("SMTP_PASSWORD", "")
 			}
 		};
 		views = {
